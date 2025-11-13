@@ -24,7 +24,3 @@ This repository contains all my practice codes, examples, and mini projects as I
 - Master DSA in C++  
 - Explore Data Analytics → AI/ML later  
 - Create small projects and share my progress regularly  
-
----
-
-## 🏗️ Folder Structure
