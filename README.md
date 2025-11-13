@@ -23,4 +23,16 @@ This repository contains all my practice codes, examples, and mini projects as I
 - Build a strong foundation in C++  
 - Master DSA in C++  
 - Explore Data Analytics → AI/ML later  
-- Create small projects and share my progress regularly  
+- Create small projects and share my progress regularly
+
+- ---
+
+## 🏆 GitHub Stats
+![Sumit's GitHub stats](https://github-readme-stats.vercel.app/api?username=sumit-raghav-06&show_icons=true&theme=tokyonight)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sumit-raghav-06&layout=compact&theme=tokyonight)
+
+---
+
+### 🌱 Keep Learning. Keep Building. Keep Growing.
+> “Every expert was once a beginner — consistency turns effort into mastery.” ✨
