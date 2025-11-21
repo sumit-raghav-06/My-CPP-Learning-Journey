@@ -1,12 +1,12 @@
-#include<iostream>
+// without template
+/*#include<iostream>
 using namespace std;
-
 class stack{
     private:
     int *stk;
     int top;
     int size;
-    public:
+    public: 
     stack(int sz) {
         size=sz;
         top=-1;
@@ -39,6 +39,54 @@ int  stack::pop(){
 int main()
 {
  stack s(10);
+ s.push(10);
+ s.push(20); 
+}*/
+
+//---------with template--------------//
+
+#include<iostream>
+using namespace std;
+template<class T>
+class stack{
+    private:
+    int *stk;
+    int top;
+    int size;
+    public:
+    stack(int sz) {
+        size=sz;
+        top=-1;
+        stk=new int[size];
+
+    }
+    void push(int x);
+    T pop();
+};
+template<class T>
+void stack::push(int x)
+{
+    if(top==size-1)
+    cout<<"stack size is full";
+    else{
+        top++;
+        stk[top]=x;
+    }
+}
+template<class T>
+T stack<T>::pop(){
+    int x=0;
+    if(top==-1)
+    cout<<"stack is empty"<<endl;
+    else{
+        x=stk[top];
+        top--;
+    }
+    return x;
+}
+int main()
+{
+ stack<int> s(10);
  s.push(10);
  s.push(20); 
 }
