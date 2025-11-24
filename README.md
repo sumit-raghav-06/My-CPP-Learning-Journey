@@ -7,8 +7,8 @@ This repository contains all my practice codes, examples, and mini projects as I
 
 ## 📘 Topics Covered So Far
 - ✅ Basics (Variables, Loops, Conditionals, Functions)
-- ✅ OOP Concepts (Classes, Objects, Inheritance, Polymorphism)
-- 🚧 In Progress: Virtual Functions, Abstract Classes, Templates
+- ✅ OOP Concepts (Classes, Objects, Inheritance, Polymorphism, Virtual Functions, Abstract Classes, Templates)
+- 🚧 In Progress: STL
 
 ---
 
