@@ -1,0 +1,7 @@
+read operation
+ifstream in("example.txt");
+string st;
+in>>st; // just like cin
+*write operation
+ofstream out("examplefile.txt");
+out <<st; //writes to a file.
